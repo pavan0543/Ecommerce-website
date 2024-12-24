@@ -1,0 +1,19 @@
+.text-center {
+    text-align: center;
+    color: brown;
+    font-family: sans-serif;
+    
+}
+p {
+    font-style: italic;
+}
+h3 {
+    color: brown;
+}
+caption {
+    color: blueviolet;
+}
+a {
+
+    color: rgb(189, 9, 150);
+}
