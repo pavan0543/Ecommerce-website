@@ -1,103 +1,143 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ECommerce Website</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
-    <h1 class="text-center">Ekart.com</h1>
-    <form>
-        <label for="Search">Search :</label>
-        <input type="text" placeholder="Search Here">
-       <p> <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEuQK3Mw_d1HqxmzDOw27aMizCDxsM7FfCpQ&s" width="50" height="20"></p> 
-       <br>
-       <br>
+    <h1 class="main-heading">Ekart.com</h1>
+    <div class="buttons">
+    <button type="button" onclick="location.href='login.html'">Login</button>
+    <button type="button" onclick="location.href='signup.html'">Signup</button>
+    </div>
+    <!-- Search form -->
+    <div class="item-center">
+        <form class="search-form">
+            <input type="text" name="search" placeholder="Search Here" class="padding-10">
+            <button type="submit" class="padding-10">Search</button>
+        </form>
+    </div> <!--shift + Alt + F  formatting -->
+    <!-- Phone Category -->
+    <div>
 
-    </form>
+        <h2 class="category">Phone Category</h2>
 
-    <table border="5">
-        <caption><b>Phone Category</b></caption>
-        <tr>
-            <td>
-                <input type="image" src="https://ikall.in/wp-content/uploads/2023/06/51sJmHfw92L._SL1000_-300x300.jpg" width="100" height="100"> <a href="https://www.apple.com" target="_blank"> Apple </a>
-            </td>
-            <td>
-                <p>An iPhone is a smartphone made by Apple that combines a computer, iPod, digital camera, and cellular phone into one device. The iPhone runs on the iOS operating system and is known for being easy to use. Here are some of the features and benefits of an iPhone:</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="image" src="https://www.khoslaonline.com/wp-content/uploads/2023/06/ONE-PLUS-NORD-CE-2-LITE-5G-BLUE-TIDE-6GB128GB-300x300.png" width="100" height="100">
-                <a href="https://www.OnePlus.in">OnePlus</a>
-            </td>
-            <td>
-                <p>OnePlus creates premium, user-centric technology that challenges market conventions and the industry status quo. Founded in 2013 around the bold Never Settle mantra, OnePlus consistently creates premium devices and software that provide the best user experience possible.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="image" src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/g/f/i/galaxy-a15-5g-sm-a156ezbnins-samsung-original-imagwkgzv7vs8zd2.jpeg?q=90&crop=false" width="100" height="100">
-                <a href="https://www.Samsung.com">Samsung</a>
-            </td>
-            <td>
-                <p>Samsung Galaxy is a series of computing and Android mobile computing devices that are designed, manufactured and marketed by Samsung Electronics</p>
-            </td>
-        </tr>
+        <table class="product-container">
+            <tr>
+                <td class="padding-10 product-image">
+                    <a href="https://www.apple.com" target="_blank"> <img
+                            src="https://ikall.in/wp-content/uploads/2023/06/51sJmHfw92L._SL1000_-300x300.jpg"
+                            width="100" height="100"></a>
+                </td>
+                <td class="padding-10">
+                    <h3>Iphone 16 Pro</h3>
+                    <p class="des">It comes with unique features with 7inch screen display</p>
+                    <p class="bold">4.5⭐/5</p>
+                    <h3 class="price">$300</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding-10">
+                    <a href="https://www.apple.com" target="_blank"> <img
+                            src="https://www.khoslaonline.com/wp-content/uploads/2023/06/ONE-PLUS-NORD-CE-2-LITE-5G-BLUE-TIDE-6GB128GB-300x300.png"
+                            width="100" height="100"></a>
+                </td>
+                <td>
+                    <h3>OnePlus 12R</h3>
+                    <p class="des">It comes with unique features with 7inch screen display</p>
+                    <p class="bold">4.8⭐/5</p>
+                    <h3 class="price">$215</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding-10">
+                    <a href="https://www.apple.com" target="_blank">
+                        <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/mobile/g/f/i/galaxy-a15-5g-sm-a156ezbnins-samsung-original-imagwkgzv7vs8zd2.jpeg?q=90&crop=false"
+                            width="100" height="100" />
+                    </a>
+                </td>
+                <td>
+                    <h3>Samsung S24 Ultra</h3>
+                    <p class="des">It comes with unique features with 7inch screen display</p>
+                    <p class="bold">4.4⭐/5</p>
+                    <h3 class="price">$367</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
 
-        </thead>
-    </table> <br><br>
 
-    <table border="5">
-        <caption> <b>Car Category</b></caption>
-        <tr>
-            <td>
-                <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdFo54tk9GhRzAVpxZhkFGmb8kZh6OEpZFqw&s" width="130" height="100">
-                <a href="https://www.marutisuzuki.com/">marutisuzuki</a>
-            </td>
-            <td>
-                <p>Maruti Suzuki is India's leading car manufacturer, and its cars are known for being affordable and fuel-efficient. Some of the other popular models include the Swift, Brezza, and Ertiga</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="image" src="https://d2m3nfprmhqjvd.cloudfront.net/blog/20220228142243/ezgif.com-gif-maker-98-5.jpg" width="130" height="100">
-                <a href="https://www.mercedes-benz.co.in">mercedes-benz</a>
-            </td>
-            <td>
-                <p>Mercedes-Benz is a German luxury and commercial vehicle brand that was founded in 1926. The brand is known for its history of innovation, including being the first to build a diesel-powered car in the 1930s, and the first to offer antilock brakes in the 1970s.</p>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <input type="image" src="https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=http://img.haymarketsac.in/autocarpro/1485510f-a4c0-4947-ac96-7664a8d8e331_Untitled.jpg&w=750&h=490&q=75&c=1" width="130" height="100">
-                <a href="https://auto.mahindra.com/">mahindra</a>
-            </td>
-            <td>
-                <p>Mahindra cars are known for their robust build quality, off-road capability, spacious interiors, powerful engines, and advanced technology. The company was established in 1945 as Mahindra & Mohammed by two brothers, JC and KC Mahindra, and Ghulam Mohammed.</p>
-            </td>
-        </tr>
-    </table>
-    <br>
-    <br>
-    <form >
-        <h3>Customer Signup</h3>
-        <label for="name"> Name :</label>
-        <input type="text" placeholder="Type Your Name" required><br><br>
-        <label for="email" >Email :</label>
-        <input type="email"  placeholder="abc@gmail.com"required><br><br>
-        <label for="Phone">Phone Number :</label>
-        <input type="tel"><br><br>
-        <label for="address">Address :</label>
-        <select >
-            <option value="" disabled selected>Select Address Type</option>
-            <option>Home</option>
-            <option>Office</option>
-        </select><br>
-        <textarea id="address" placeholder="Type Your Address" rows="4" cols="30"></textarea><br>
-        <button type="reset">Reset</button>
-        <button type="submit">Submit</button>
-    </form> 
+            </thead>
+        </table>
+    </div>
+    <!-- Car Category -->
+    <div>
+
+        <h2 class="category">Car Category</h2>
+
+        <table class="product-container">
+            <tr>
+                <td class="padding-10">
+                    <a href="https://www.tatamotors.com" target="_blank"> <img
+                            src="https://imgd.aeplcdn.com/370x208/n/cw/ec/139651/curvv-exterior-right-front-three-quarter.jpeg?isig=0&q=80"
+                            width="150" height="100"></a>
+                </td>
+                <td class="padding-10">
+                    <h3>TATA Nexon</h3>
+                    <p class="des">It comes with unique features with LED screen display</p>
+                    <p class="bold">4.6⭐/5</p>
+                    <h3 class="price">$10000</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding-10">
+                    <a href="https://www.marutisuzuki.com" target="_blank"> <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWAfCx5eRGS4l8shNRA-OiHgYRoDAmuamCxg&s"
+                            width="150" height="100"></a>
+                </td>
+                <td>
+                    <h3>Maruti Suzuki Baleno</h3>
+                    <p class="des">It comes with unique features with LED screen display</p>
+                    <p class="bold">4.2⭐/5</p>
+                    <h3 class="price">$6000</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="padding-10">
+                    <a href="https://www.mercedesbenz.com" target="_blank">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-mercedes-benz-gle-coupe-white-carcarvehicletransportmercedes-benz-961524660217nch4l.png"
+                            width="150" height="100" />
+                    </a>
+                </td>
+                <td>
+                    <h3>Benz 4matic</h3>
+                    <p class="des">It comes with unique features with 7inch screen display</p>
+                    <p class="bold">4.9⭐/5</p>
+                    <h3 class="price">$45000</h3>
+                    <button type="button" class="padding-10 add-to-cart">Add to cart</button>
+                    <button type="button" class="padding-10 buy-now">Buy Now</button>
+                </td>
+            </tr>
+
+
+            </thead>
+        </table>
+    </div>
+    <!-- Signup Form -->
+
 </body>
+
 </html>

@@ -1,19 +1,100 @@
-.text-center {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 10px 20px;
+}
+.main-heading {
     text-align: center;
     color: brown;
-    font-family: sans-serif;
+    font-family: sans-serif;  
+    margin: 30px;
+}
+
+.search-form {
+    margin: 20px 0;
+}
+
+.category {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.price {
+    margin: 10px;
+}
+
+.des {
+    color: gray;
+}
+
+
+.item-center {
+    width: fit-content;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.padding-10 {
+    padding: 5px;
+}
+
+.add-to-cart {
+    background-color: gold;
+    color: ;
+}
+
+.buy-now {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.product-conatiner {
+    border: 10px solid black;
+}
+
+.product-image {
+    padding: 50px 20px;
+}
+
+.signup {
+    margin: 15px;
+}
+
+.label {
+    margin: 10px;
+
+}
+
+.buttons {
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+    top: 35px;
     
 }
-p {
-    font-style: italic;
-}
-h3 {
-    color: brown;
-}
-caption {
-    color: blueviolet;
-}
-a {
 
-    color: rgb(189, 9, 150);
+.buttons button {
+    margin-left: 10px; /* Spacing between buttons */
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.pad {
+    margin: 10px 0;
+    padding: 10px 0;
+}
+
+.user {
+    padding: 20px 0;
+    color: blue;
+    
 }
